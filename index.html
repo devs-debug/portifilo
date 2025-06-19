@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Devid Basnet | AI & Web Dev</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e6ffe6;
+      color: #333;
+    }
+
+    header {
+      background: #ff9999;
+      color: black;
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 5px solid #6666ff;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #222;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .card {
+      background: #fffbe0;
+      border: 2px dashed #9900cc;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .education-card {
+      background: #e0f7fa;
+      border-color: #ff6f00;
+    }
+
+    .skills-card {
+      background: #fce4ec;
+      border-color: #009688;
+    }
+
+    h2 {
+      color: #6600cc;
+      font-size: 1.6rem;
+      border-bottom: 2px dotted #999;
+      padding-bottom: 0.3rem;
+    }
+
+    .education-item {
+      margin: 1rem 0;
+    }
+
+    .education-item h3 {
+      margin: 0.2rem 0;
+    }
+
+    .education-item .institution {
+      font-weight: bold;
+      color: #ff4081;
+    }
+
+    .education-item .year {
+      background: #d1c4e9;
+      padding: 0.3rem 0.6rem;
+      display: inline-block;
+      border-radius: 5px;
+      font-size: 0.85rem;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+
+    .skill {
+      background: #f0f0f0;
+      color: #333;
+      border-left: 5px solid #ff4081;
+      padding: 0.8rem 1.2rem;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+
+    .contact-info {
+      margin: 1rem 0;
+    }
+
+    .contact-item {
+      margin-bottom: 0.6rem;
+    }
+
+    @media (min-width: 768px) {
+      .main-content {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .skills-card {
+        grid-column: span 2;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Devid Basnet</h1>
+    <p>AI & Web Developer Wannabe</p>
+  </header>
+
+  <div class="container">
+    <div class="main-content">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>Hey there! I'm Devid Basnet. I'm currently studying AI and Business. I love figuring things out, especially in tech and websites. Still learning, but enjoying it!</p>
+        <p>When I'm not buried in code, I like checking out new tech stuff and reading about AI ideas. Sometimes I just mess around with small side projects too.</p>
+      </div>
+
+      <div class="card education-card">
+        <h2>Education</h2>
+        <div class="education-item">
+          <span class="institution">Xavier International College</span>
+          <h3>High School Diploma</h3>
+          <p>Computer Science Stream</p>
+          <span class="year">2021 - 2023</span>
+        </div>
+        <div class="education-item">
+          <span class="institution">Kimpo International University</span>
+          <h3>Bachelor's Degree</h3>
+          <p>Major: AI & Business</p>
+          <span class="year">2023 - Present</span>
+        </div>
+      </div>
+
+      <div class="card skills-card">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+          <div class="skill">HTML5</div>
+          <div class="skill">CSS3</div>
+          <div class="skill">Python</div>
+          <div class="skill">Business Fundamentals</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <h3>Contact Info</h3>
+    <div class="contact-info">
+      <div class="contact-item">📞 010-6876-9926</div>
+      <div class="contact-item">📧 davidbasnet614@gmail.com</div>
+    </div>
+    <p>&copy; 2023 Devid Basnet</p>
+  </footer>
+</body>
+</html>
